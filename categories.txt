@@ -1,0 +1,28 @@
+artsCategory = (("Arts & Entertainment", "4d4b7104d754a06370d81259"), ("Amphitheater", "56aa371be4b08b9a8d5734db"), ("Aquarium", "4fceea171983d5d06c3e9823"), ("Arcade", "4bf58dd8d48988d1e1931735"), 
+	("Art Gallery", "4bf58dd8d48988d1e2931735"), ("Bowling Alley", "4bf58dd8d48988d1e4931735"),	("Casino", "4bf58dd8d48988d17c941735"), ("Circus", "52e81612bcbc57f1066b79e7"), 
+	("Comedy Club", "4bf58dd8d48988d18e941735"), ("Concert Hall", "5032792091d4c4b30a586d5c"), ("Exhibit", "56aa371be4b08b9a8d573532"), ("General Entertainment", "4bf58dd8d48988d1f1931735"), 
+	("Go Kart Track", "52e81612bcbc57f1066b79ea"), ("Historic Site", "4deefb944765f83613cdba6e"), ("Laser Tag", "52e81612bcbc57f1066b79e6"), ("Memorial Site", "5642206c498e4bfca532186c"), 
+	("Mini Golf", "52e81612bcbc57f1066b79eb"), ("Movie Theater", "4bf58dd8d48988d17f941735"), ("Museum", "4bf58dd8d48988d181941735"), ("Music Venue", "4bf58dd8d48988d1e5931735"), 
+	("Jazz Club", "4bf58dd8d48988d1e7931735"), ("Piano Bar", "4bf58dd8d48988d1e8931735"), ("Rock Club", "4bf58dd8d48988d1e9931735"), ("Performing Arts Venue", "4bf58dd8d48988d1f2931735"), 
+	("Pool Hall", "4bf58dd8d48988d1e3931735"), ("Public Art", "507c8c4091d498d9fc8c67a9"), ("Racecourse", "56aa371be4b08b9a8d573514"), ("Racetrack", "4bf58dd8d48988d1f4931735"), 
+	("Roller Rink", "52e81612bcbc57f1066b79e9"), ("Stadium", "4bf58dd8d48988d184941735"), ("Salsa Club", "52e81612bcbc57f1066b79ec"), ("Theme Park", "4bf58dd8d48988d182941735"), 
+	("Water Park", "4bf58dd8d48988d193941735"), ("Zoo", "4bf58dd8d48988d17b941735"))
+
+eventsCategory = (("Christmas Market", "52f2ab2ebcbc57f1066b8b3b"), ("Conference", "5267e4d9e4b0ec79466e48c6"), ("Convention", "5267e4d9e4b0ec79466e48c9"), ("Festival", "5267e4d9e4b0ec79466e48c7"), 
+	("Music Festival", "5267e4d9e4b0ec79466e48d1"), ("Other Event", "5267e4d9e4b0ec79466e48c8"), ("Parade", "52741d85e4b0d5d1e3c6a6d9"), ("Street Fair", "5267e4d8e4b0ec79466e48c5"))
+
+nightlifeCategory = (("Bar", "4bf58dd8d48988d116941735"), ("Beach Bar", "52e81612bcbc57f1066b7a0d"), ("Beer Bar", "56aa371ce4b08b9a8d57356c"), ("Beer Garden", "4bf58dd8d48988d117941735"), 
+	("Champagne Bar", "52e81612bcbc57f1066b7a0e"), ("Cocktail Bar", "4bf58dd8d48988d11e941735"), ("Dive Bar", "4bf58dd8d48988d118941735"), ("Gay Bar", "4bf58dd8d48988d1d8941735"), 
+	("Hookah Bar", "4bf58dd8d48988d119941735"), ("Hotel Bar", "4bf58dd8d48988d1d5941735"), ("Karaoke Bar", "4bf58dd8d48988d120941735"), ("Pub", "4bf58dd8d48988d11b941735"), ("Sake Bar", "4bf58dd8d48988d11c941735"), 
+	("Sports Bar", "4bf58dd8d48988d11d941735"), ("Tiki Bar", "56aa371be4b08b9a8d57354d"), ("Whisky Bar", "4bf58dd8d48988d122941735"), ("Wine Bar", "4bf58dd8d48988d123941735"),	
+	("Brewery", "50327c8591d4c4b30a586d5d"), ("Lounge", "4bf58dd8d48988d121941735"), ("Night Market", "53e510b7498ebcb1801b55d4"), ("Nightclub", "4bf58dd8d48988d11f941735"), 
+	("Other Nightlife", "4bf58dd8d48988d11a941735"), ("Speakeasy", "4bf58dd8d48988d1d4941735"), ("Strip Club", "4bf58dd8d48988d1d6941735"))
+
+recreationCategory = (("Athletics & Sports", "4f4528bc4b90abdf24c9de85"), ("Badminton Court", "52e81612bcbc57f1066b7a2b"), ("Baseball Field", "4bf58dd8d48988d1e8941735"), ("Basketball Court", "4bf58dd8d48988d1e1941735"), 
+	("Golf Course", "4bf58dd8d48988d1e6941735"), ("Boxing Gym", "52f2ab2ebcbc57f1066b8b47"), ("Climbing Gym", "503289d391d4c4b30a586d6a"), ("Cycle Studio", "52f2ab2ebcbc57f1066b8b49"), 
+	("Martial Arts Dojo", "4bf58dd8d48988d101941735"), ("Soccer Field", "4cce455aebf7b749d5e191f5"), ("Hockey Rink", "56aa371be4b08b9a8d57352c"), ("Tennis Court", "4e39a956bd410d7aed40cbc3"), 
+	("Squash Court", "52e81612bcbc57f1066b7a2d"), ("Bay", "56aa371be4b08b9a8d573544"), ("Beach", "4bf58dd8d48988d1e2941735"), ("Paintball Field", "5032829591d4c4b30a586d5e"), 
+	("Skate Park", "4bf58dd8d48988d167941735"), ("Skating Rink", "4bf58dd8d48988d168941735"), ("Volleyball Court", "4eb1bf013b7b6f98df247e07"), ("Botanical Garden", "52e81612bcbc57f1066b7a22"), 
+	("Bike Trail", "56aa371be4b08b9a8d57355e"), ("Dog Run", "4bf58dd8d48988d1e5941735"), ("Bridge", "4bf58dd8d48988d1df941735"), ("Park", "4bf58dd8d48988d163941735"), 
+	("Gun Range", "52e81612bcbc57f1066b7a11"), ("Plaza", "4bf58dd8d48988d164941735"), ("Recreation Center", "52e81612bcbc57f1066b7a26"), ("Rock Climbing Spot", "50328a4b91d4c4b30a586d6b"), 
+	("Playground", "4bf58dd8d48988d1e7941735"), ("Fair", "4eb1daf44b900d56c88a4600"), ("Winery", "4bf58dd8d48988d14b941735"))

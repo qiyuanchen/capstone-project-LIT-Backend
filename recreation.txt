@@ -1,0 +1,11 @@
+Beach, 4bf58dd8d48988d1e2941735
+Paintball Field, 5032829591d4c4b30a586d5e
+Skating Rink, 4bf58dd8d48988d168941735
+Botanical Garden, 52e81612bcbc57f1066b7a22, 
+Bike Trail, 56aa371be4b08b9a8d57355e
+Bridge, 4bf58dd8d48988d1df941735
+Park, 4bf58dd8d48988d163941735
+Gun Range, 52e81612bcbc57f1066b7a11
+Rock Climbing Spot, 50328a4b91d4c4b30a586d6b
+Fair, 4eb1daf44b900d56c88a4600
+Winery, 4bf58dd8d48988d14b941735

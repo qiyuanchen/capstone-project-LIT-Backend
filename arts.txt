@@ -1,0 +1,29 @@
+Arts & Entertainment, 4d4b7104d754a06370d81259
+Amphitheater, 56aa371be4b08b9a8d5734db
+Aquarium, 4fceea171983d5d06c3e9823
+Arcade, 4bf58dd8d48988d1e1931735
+Art Gallery, 4bf58dd8d48988d1e2931735
+Bowling Alley, 4bf58dd8d48988d1e4931735
+Casino, 4bf58dd8d48988d17c941735
+Circus, 52e81612bcbc57f1066b79e7 
+Comedy Club, 4bf58dd8d48988d18e941735
+Concert Hall, 5032792091d4c4b30a586d5c
+Exhibit, 56aa371be4b08b9a8d573532
+General Entertainment, 4bf58dd8d48988d1f1931735 
+Go Kart Track, 52e81612bcbc57f1066b79ea
+Historic Site, 4deefb944765f83613cdba6e
+Laser Tag, 52e81612bcbc57f1066b79e6
+Memorial Site, 5642206c498e4bfca532186c
+Mini Golf, 52e81612bcbc57f1066b79eb
+Museum, 4bf58dd8d48988d181941735
+Music Venue, 4bf58dd8d48988d1e5931735
+Jazz Club, 4bf58dd8d48988d1e7931735
+Piano Bar, 4bf58dd8d48988d1e8931735
+Rock Club, 4bf58dd8d48988d1e9931735
+Pool Hall, 4bf58dd8d48988d1e3931735
+Public Art, 507c8c4091d498d9fc8c67a9
+Roller Rink, 52e81612bcbc57f1066b79e9
+Salsa Club, 52e81612bcbc57f1066b79ec
+Theme Park, 4bf58dd8d48988d182941735
+Water Park, 4bf58dd8d48988d193941735
+Zoo, 4bf58dd8d48988d17b941735

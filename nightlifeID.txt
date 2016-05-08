@@ -1,0 +1,5 @@
+nightlifeCategory = (("Bar", "4bf58dd8d48988d116941735"), ("Beach Bar", "52e81612bcbc57f1066b7a0d"), ("Beer Bar", "56aa371ce4b08b9a8d57356c"), ("Beer Garden", "4bf58dd8d48988d117941735"), 
+	("Champagne Bar", "52e81612bcbc57f1066b7a0e"), ("Cocktail Bar", "4bf58dd8d48988d11e941735"), ("Dive Bar", "4bf58dd8d48988d118941735"), ("Gay Bar", "4bf58dd8d48988d1d8941735"), 
+	("Hookah Bar", "4bf58dd8d48988d119941735"), ("Hotel Bar", "4bf58dd8d48988d1d5941735"), ("Karaoke Bar", "4bf58dd8d48988d120941735"), ("Pub", "4bf58dd8d48988d11b941735"), ("Sake Bar", "4bf58dd8d48988d11c941735"), ("Sports Bar", "4bf58dd8d48988d11d941735"), ("Tiki Bar", "56aa371be4b08b9a8d57354d"), ("Whisky Bar", "4bf58dd8d48988d122941735"), ("Wine Bar", "4bf58dd8d48988d123941735"),	
+	("Brewery", "50327c8591d4c4b30a586d5d"), ("Lounge", "4bf58dd8d48988d121941735"), ("Night Market", "53e510b7498ebcb1801b55d4"), ("Nightclub", "4bf58dd8d48988d11f941735"), 
+	("Other Nightlife", "4bf58dd8d48988d11a941735"), ("Speakeasy", "4bf58dd8d48988d1d4941735"), ("Strip Club", "4bf58dd8d48988d1d6941735"))

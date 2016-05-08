@@ -1,0 +1,1 @@
+attributesToDelete=("hasMenu", verified", "referralId", "venueChains", "menu", "storeId", "hereNow", "specials", "allowMenuUrlEdit", "venuePage", "delivery")
