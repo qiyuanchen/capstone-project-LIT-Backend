@@ -1,5 +1,5 @@
 import simplejson as json
-import twitterSettings
+import twitterTokens
 
 # from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 

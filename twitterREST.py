@@ -16,7 +16,7 @@ def openJsonFile(filename):
 	parsedJson = json.load(jsonObj)
 	return parsedJson
 
-places = openJsonFile("hunter_places.json")
+places = openJsonFile("hunterDB.json")
 twitterList = []
 noTwitter = []
 checkForDupe = []
@@ -24,34 +24,31 @@ checkForDupe = []
 #append twitter and non twitter names to lists and remove spaces to prepare for searchInput
 for place in places:
 	if 'twitter' in place['contact']:
-		print place['contact']['twitter']
+		#print place['contact']['twitter']
 		twitterList.append(place['contact']['twitter'])
 	else:
 		noTwitter.append(place['name'].replace(' ', ""))
 
-print "Places with Twitter:", twitterList
-print "Places with no Twitter:", noTwitter
+# print "Places with Twitter:", twitterList
+# print "Places with no Twitter:", noTwitter
 
 def hashtagSearch(searchInput):
-	for tweet in tweepy.Cursor(api.search, q=searchInput, geocode="40.7589,-73.9851,25mi").items(10):
-		tweetText = ''.join([str(tweet.created_at), " ", tweet.text]) #time stamp and tweet contents
-		#tweetText = ''.join([str(tweet.created_at)]) #time stamp only
-		checkForDupe.append(tweetText)
+	tweetList = []
+	for tweet in tweepy.Cursor(api.search, q=searchInput, geocode="40.7589,-73.9851,25mi").items(50):
+		#tweetText = ''.join([str(tweet.created_at), " ", tweet.text]) #time stamp and tweet contents
+		tweetText = ''.join([str(tweet.created_at)]) #time stamp only
+		tweetList.append(tweetText)
 		print tweetText
+	return tweetList
 
-for index, entry in enumerate(twitterList):
-	hashtagSearch(twitterList[index])
-	print '*************************'
-
-# for index, entry in enumerate(noTwitter):
-# 	hashtagSearch(noTwitter[index])
-# 	print '*************************'
-
-localdb = open("localdb.txt", "a")
-for tweet in checkForDupe:
-	#print tweet
-	#localdb.write(tweet.encode('ascii', 'ignore').decode('ascii'))
-	localdb.write(tweet.encode('utf-8').strip() + "\n")
+def saveToFile(listOfTweets, locationName):
+	localdb = open("localdb2.txt", "a")
+	localdb.write("%" + locationName + "\n")
+	for tweet in listOfTweets:
+		#print tweet
+		#localdb.write(tweet.encode('ascii', 'ignore').decode('ascii'))
+		localdb.write(tweet.encode('utf-8').strip() + "\n")
+	localdb.write("*****\n")
 
 def duplicateRemover(filename):
 	lines_seen = set() # holds lines already seen
@@ -61,6 +58,17 @@ def duplicateRemover(filename):
         		outfile.write(line)
         	lines_seen.add(line)
 		outfile.close()
+
+for index, entry in enumerate(twitterList):
+	tweets = hashtagSearch(twitterList[index])
+	saveToFile(tweets, twitterList[index])
+	#print '*************************'
+
+# for index, entry in enumerate(noTwitter):
+# 	hashtagSearch(noTwitter[index])
+# 	print '*************************'
+
+
 
 #duplicateRemover("localdb.txt")
 
